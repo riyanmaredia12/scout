@@ -77,11 +77,12 @@ table tr:hover {
     width: 120px; 
 }
 h1 {
-    font-size: 40px;
+    font-size: 50px;
     margin: 0;
     padding: 10px 0;
     color: #f2eef7;
     text-align: center;
+    font-weight: bold;
 }
 
 h2 {
