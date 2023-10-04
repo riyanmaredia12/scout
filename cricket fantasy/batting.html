@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="batting.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway&display=swap">
+    <script src="batting.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" 
+     integrity="sha384-KyZXEAg3QhqLMpG8r+3BkF5qVaEe/iHRf5F5s5Dj1Xn7b+K1Ti5FV5BnlI7fF1df5d" crossorigin="anonymous">
+    <title>Batting Statistics</title>
+</head>
+<body>
+    <main>
+        <br>
+        <br>
+        <br>
+        <h1>Batting <span style="color: #FF00A5;">Statistics</span></h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="bowling.html">Bowling</a></li>
+            </ul>
+        </nav>
+        <br>
+        <section id="batting-stats">
+            <!-- Table for batting statistics -->
+            <a href="index.html" class="back-button">
+                <i class='fas fa-angle-double-left' ></i>
+            </a>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Ranking</th>
+                            <th>Player</th>
+                            <th>Points</th>
+                        </tr>
+                    </thead>
+                    <tbody id="battingTable">
+                        <!-- Data will be added dynamically using JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+            
+        </section>
+    </main>
+</body>
+</html>

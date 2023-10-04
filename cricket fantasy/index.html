@@ -5,31 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Cricket Fantasy League Results</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway&display=swap">
+
 </head>
 <body>
-    <header>
-        <div class="header-content">
-            <img src="images/logo.png" alt="Left Logo" class="logo">
-            <h1>Fantasy League - CWC 2023</h1>
-            <img src="images/logo.png" alt="Right Logo" class="logo">
-        </div>
-    </header>
     <main>
-        <section id="results">
-            <!-- yahan result ayega  -->
+        <br>
+        <br>
+        <br>
+        <h1 style="text-align: center; flex-grow: 1;">Fantasy League - <span style="color: #FF00A5;">CWC 2023</span></h1>
+        <nav>
+            <ul>
+                <li><a href="batting.html">Batting</a></li>
+                <li><a href="bowling.html">Bowling</a></li>
+            </ul>
+        </nav>
+        <br>
+        <h2>POINTS TABLES AS OF MATCH <span style="color: #FF00A5;">"Team A VS Team B"</span> </h2>
+        <div class="table-container">
             <table>
                 <thead>
                     <tr>
                         <th>Ranking</th>
                         <th>Team Name</th>
+                        <th>Owner</th>
                         <th>Points</th>
                     </tr>
                 </thead>
                 <tbody id="resultTable">
-                    <!-- yahan se rows add bnti jayegi js ki madad se (scout jio) -->
+                    <!-- yahan se sari teams add hongi js ki madad se -->
                 </tbody>
             </table>
-        </section>
+        </div>
     </main>
     <script src="script.js"></script>
 </body>
