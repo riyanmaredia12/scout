@@ -18,7 +18,7 @@ array.pop()
 array.reverse()
 console.log(array);
 
-// yeh bsdka function hai yeh hata to fantasy ki gaand phati
+
 function displayTeams() {
     const resultTable = document.getElementById('resultTable');
 
@@ -34,10 +34,10 @@ function displayTeams() {
     });
 }
 
-// yahan se function ko call karlena baat karli hai display karlega yeh
 window.onload = displayTeams;
 
 document.addEventListener("DOMContentLoaded", function () {
     const body = document.querySelector("body");
     body.classList.add("animate");
 });
+
